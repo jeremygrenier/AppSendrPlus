@@ -151,7 +151,6 @@ typedef enum StatusItemState {
             object = [PFObject objectWithClassName:@"App"];
             object[@"name"] = app.name;
             object[@"identifier"] = app.identifier;
-            object[@"schemes"] = app.schemes;
 
             if ( app.icon ) {
                 NSData *iconData = [app.icon.largeImage TIFFRepresentation];
