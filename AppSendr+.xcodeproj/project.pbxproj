@@ -57,7 +57,6 @@
 		B1F99D4916A8CDFD005199B8 /* ASImageAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F99D3A16A8CDFD005199B8 /* ASImageAsset.m */; };
 		B1F99D4A16A8CDFD005199B8 /* iOSApp.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F99D3C16A8CDFD005199B8 /* iOSApp.m */; };
 		B1F99D4B16A8CDFD005199B8 /* ASIPADropView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F99D3F16A8CDFD005199B8 /* ASIPADropView.m */; };
-		B1F99DED16A8CF40005199B8 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F99D9316A8CF3F005199B8 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B1F99DEE16A8CF40005199B8 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F99D9516A8CF3F005199B8 /* NSFileManager+DirectoryLocations.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B1F99DEF16A8CF40005199B8 /* NSWindow+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F99D9716A8CF3F005199B8 /* NSWindow+DPAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B1F99DF316A8CF40005199B8 /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F99D9F16A8CF3F005199B8 /* MAAttachedWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -146,8 +145,6 @@
 		B1F99D3F16A8CDFD005199B8 /* ASIPADropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIPADropView.m; sourceTree = "<group>"; };
 		B1F99D4C16A8CEAE005199B8 /* AppSendr+-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppSendr+-Prefix.pch"; path = "Classes/AppSendr+-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		B1F99D4D16A8CEAE005199B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = SOURCE_ROOT; };
-		B1F99D9216A8CF3F005199B8 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		B1F99D9316A8CF3F005199B8 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		B1F99D9416A8CF3F005199B8 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
 		B1F99D9516A8CF3F005199B8 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
 		B1F99D9616A8CF3F005199B8 /* NSWindow+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+DPAdditions.h"; sourceTree = "<group>"; };
@@ -366,8 +363,6 @@
 		B1F99D9116A8CF3F005199B8 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				B1F99D9216A8CF3F005199B8 /* NSData+Base64.h */,
-				B1F99D9316A8CF3F005199B8 /* NSData+Base64.m */,
 				B1F99D9416A8CF3F005199B8 /* NSFileManager+DirectoryLocations.h */,
 				B1F99D9516A8CF3F005199B8 /* NSFileManager+DirectoryLocations.m */,
 				B1F99D9616A8CF3F005199B8 /* NSWindow+DPAdditions.h */,
@@ -552,7 +547,6 @@
 				B1F99D4916A8CDFD005199B8 /* ASImageAsset.m in Sources */,
 				B1F99D4A16A8CDFD005199B8 /* iOSApp.m in Sources */,
 				B1F99D4B16A8CDFD005199B8 /* ASIPADropView.m in Sources */,
-				B1F99DED16A8CF40005199B8 /* NSData+Base64.m in Sources */,
 				B1F99DEE16A8CF40005199B8 /* NSFileManager+DirectoryLocations.m in Sources */,
 				B1F99DEF16A8CF40005199B8 /* NSWindow+DPAdditions.m in Sources */,
 				B1F99DF316A8CF40005199B8 /* MAAttachedWindow.m in Sources */,
