@@ -151,11 +151,10 @@ typedef enum StatusItemState {
             object = [PFObject objectWithClassName:@"App"];
             object[@"name"] = app.name;
             object[@"identifier"] = app.identifier;
-
-            if ( app.icon ) {
-                NSData *iconData = [app.icon.largeImage TIFFRepresentation];
-                object[@"icon"] = [PFFile fileWithData:iconData];
-            }
+        }
+        
+        if ( app.icon ) {
+            object[@"icon"] = [PFFile fileWithName:@"icon.png" data:[app.icon imageData] contentType:@"image/png"];
         }
 
         PFObject *bundle = [PFObject objectWithClassName:@"Bundle"];
