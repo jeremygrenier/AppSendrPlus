@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'AppSendr' target in the 'AppSendr' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <ParseOSX/Parse.h>
+    #import "Constants.h"
+#endif
